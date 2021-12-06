@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head1{
+    height: 70px;
+    width: 100vw;
+    background-color:#d70f64 ;
+    overflow: hidden;
+    
+}
+
+.part{
+    height: 50px;
+    width: 70%;
+   
+    margin-left: 351px;
+   margin-top: 11px;
+   display:flex;
+   justify-content: space-around;
+   overflow: hidden;
+}
+
+.fa-shopping-bag{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.part span{
+    color: whitesmoke;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.bt{
+  height: 50px;
+  width: 110px;
+  border: 1px solid whitesmoke;
+  background-color:#d70f64 ;
+  margin-right: 332px;
+}
+
+.bt h6{
+    color: whitesmoke;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.navbar{
+    height: 100px;
+    width: 100vw;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic img{
+    margin-left: 70px;
+
+}
+
+.fa-shopping-cart{
+    font-size: 1.5rem;
+    color: palevioletred;
+     
+}
+
+.sum{
+    height: 50px;
+    width: 180px;
+    /* background-color: red; */
+    margin-left: 929px;
+}
+
+.main{
+    height: 800px;
+    width: 100%;
+    /* background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+   
+}
+
+.box img{
+    height: 800px;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+   justify-content: flex-end;
+}
+
+.box2 h4{
+    padding: 70px;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+ 
+}
+
+.mail{
+    height: 100px;
+    width: 900px;
+    box-shadow: 0px 0px 12px -5px;
+    /* background-color: tomato; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.mail input{
+  margin-top: 20px;
+  height: 70px;
+  width: 500px;
+}
+
+.mail button{
+    height: 70px;
+    width: 110px;
+    background-color:#C60D5C  ;
+    color: whitesmoke;
+}
+
+.id{
+    margin-top: 21px;
+}
+
+.li{
+    width: 430px;
+    height: 500px;
+    /* background-color: brown; */
+    /* padding-top: 60px; */
+     margin-top: 253px;
+     margin-left: 83px; 
+     position: absolute;
+    
+}
+
+.li h1{
+font-size: 120px;
+opacity: 0.1;
+}
+.li2{
+    height: 50px;
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.li2 h3{
+    /* height: 50px;
+    width: 600px; */
+    /* background-color: coral; */
+    font-family: 'Andada Pro', serif;
+    /* margin-left: 20px; */
+   
+    font-size: 30px;
+}
+ /* .main2{
+
+    height: 1400px;
+    width: 100%;
+    /* background-color: darkblue; */
+  
+   
+   
+  */
+h1,h2,h3,h4,h5,h6,span{
+    margin: 0px;
+    padding: 0px;
+}
+  .picture{
+    height: 700px;
+    width: 100%;
+
+    background-image: url('../image/foo3.webp');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    position: relative;
+  
+  
+    display: flex;
+justify-content: flex-start;
+     
+
+} 
+
+
+.pragra{
+    height: 390px;
+    width: 700px;
+    background-color:whitesmoke;
+  
+    position: absolute;
+    /* margin-bottom: 500px; */
+    margin-top: 380px;
+    margin-left: 40px;
+
+    /* display: flex;
+  justify-content: flex-start;
+     */
+}
+
+.hw h3{
+    padding: 20px;
+}
+
+.write p{
+  text-align: justify;
+  padding: 50px;
+  font-family: 'Andada Pro', serif;
+  opacity: 0.6;
+}
+
+.picture button{
+   width:282px;
+   padding: 17px;
+   margin-left: 406px;
+   background-color: #C60D5C;
+   color: whitesmoke;
+   
+}
+
+.qo{
+    height: 50px;
+    width: 400px;
+    
+    margin-top: 84px;
+    /* padding: 30px; */
+    margin-left: 60px;
+}
+
+.gallery{
+    height: 2286px;
+    width: 100%;
+  
+    /* overflow: hidden; */
+   
+}
+
+.qo h6{
+    font-size: 23px;
+    
+}
+
+.gallery2{
+
+    height: 1601px;
+    width: 90%;
+  
+    margin: 10px auto;
+   
+    
+}
+
+.pic1 img{
+    display: inline;
+    float:right;
+    padding: 5px;
+}
+
+.pic1 img:hover{
+    height: 220px;
+  
+}
+
+
+
+
+
+.put{
+    height: 400px;
+    width: 100%;
+    background-color: #C60D5C;
+
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.index h4{
+   margin-left: 10px;
+   margin-top: 30px;
+   padding: 70px;
+   color: whitesmoke;
+}
+
+.index2{
+    height: 100px;
+    width: 450px;
+    /* background-color: yellowgreen; */
+    margin-left: 30px;
+    margin-bottom: 40px;
+ 
+    
+}
+
+.index2 p{
+    text-align: justify;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Andada Pro', serif;
+}
+
+.app{
+    height: 150px;
+    width: 200px;
+    
+    margin-left: 50px;
+    padding: 30px;
+    position: relative;
+    margin-top: 30px;
+   
+}
+
+.app h1{
+    font-size: 100px;
+    opacity: 0.1;
+}
+
+.an{
+    height: 50px;
+    width: 300px;
+    
+    margin-bottom: 40px;
+
+    position: absolute;
+}
+
+.an span{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.index3 img{
+    margin-bottom: 17px;
+    padding-left: 10px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+  .container{
+    height: 190px;
+    width: 100vw;
+    /* margin-left: 20px;
+    
+     /* position: relative;  */
+   
+    margin-top: 93px;
+}
+.container h1{
+    font-size: 140px;
+
+    color: black;
+    opacity: 0.1;
+    padding-bottom: 10px;
+}  
+
+
+.header4{
+    height: 60px;
+    width: 60%;
+   
+    padding: 20px;
+}
+
+.header4 span{
+    font-weight: bold;
+    color:black;
+    font-size: 17px;
+    margin-left: 191px;
+}
+ .content{
+    height: 800px;
+    width: 100%;
+   
+  
+    
+ }
+  
+.main3{
+    height: 800px;
+    width: 100vw;
+ 
+   /* display: flex;
+   justify-content: center; */
+background-image: url('../image/home-corporate-bd.webp');
+overflow: hidden;
+
+   
+}
+
+ .main4{
+    height: 250px;
+    width: 50%;
+    background-color:whitesmoke;
+    margin-top: 552px;
+    margin-left: 30px;
+ 
+
+
+
+ 
+}
+
+.main4 h3{
+    padding: 25px;
+}
+.main4 p{
+    padding: 10px;
+    font-style: italic;
+    text-align: justify;
+    font-weight: bold;
+}
+.bo{
+    height: 70px;
+    width: 300px;
+    margin-left: 470px;
+    margin-top: 53px;
+}
+.bo button{
+    height: 40px;
+    width: 200px;
+    background-color:#d70f64 ;
+}
+
+
+/* .main3 img{
+    height: 450px;
+    width: 100%;
+} */
+
+/* .content{
+    height: 50px;
+    width: 300px;
+   
+   margin-bottom: 20px;
+   position: absolute;
+}
+.content span{
+    font-size: 25px;
+    font-weight: bold;
+}
+  */
+
+  .foot{
+      height: 450px;
+      width: 100%;
+      /* background-color: blueviolet; */
+  }
+
+  .foot h4{
+      padding: 38px;
+  }
+
+  .pragrap{
+      height: 300px;
+      width: 80%;
+      padding: 38px;
+  }
+
+  .last{
+     
+       margin-left: 25px; 
+  }
+.last h5{
+    opacity: 0.5;
+}
+
+  .last:hover{
+      width: 60%;
+      background-color:blanchedalmond;
+      border: 1px solid whitesmoke;
+  }
